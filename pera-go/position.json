@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "name": "CEO",
+    "description": "Chief Executive Officer, the highest-ranking executive of the company, responsible for overall company operations and strategy.",
+    "parentId": null,
+    "children": [
+      {
+        "id": 2,
+        "name": "CTO",
+        "description": "Chief Technology Officer, responsible for overseeing the company's technology infrastructure and strategy.",
+        "parentId": 1,
+        "children": [
+          {
+            "id": 3,
+            "name": "Project Manager",
+            "description": "Project Manager, Manages the planning, execution, and monitoring of projects to ensure they are completed on time, within budget, and to the required quality standards.",
+            "parentId": 2,
+            "children": [
+              {
+                "id": 4,
+                "name": "Product Owner",
+                "description": "Product Owner, Responsible for understanding and conveying the needs of the users and stakeholders to the development team.",
+                "parentId": 3,
+                "children": [
+                  {
+                    "id": 5,
+                    "name": "Tech Lead",
+                    "description": "Tech Lead, Leads a team of developers in the design, development, and implementation of software.",
+                    "parentId": 4,
+                    "children": [
+                      {
+                        "id": 18,
+                        "name": "Frontend Developer",
+                        "description": "Frontend Developer, Develops the user interface (UI) of web applications.",
+                        "parentId":5
+                      },
+                      {
+                        "id": 17,
+                        "name": "Backend Developer",
+                        "description": "Backend Developer, Develops the server-side logic of web applications.",
+                        "parentId": 5
+                      },
+                      {
+                        "id": 16,
+                        "name": "DevOps Engineer",
+                        "description": "DevOps Engineer, Automates and optimizes the process of software development, deployment, and operation.",
+                        "parentId": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 20,
+                    "name": "QA Engineer",
+                    "description": "QA Engineer, Tests software to ensure it meets quality standards.",
+                    "parentId": 4
+                  },
+                  {
+                    "id": 19,
+                    "name": "Scrum Master",
+                    "description": "Scrum Master, Facilitates the Scrum process and helps the team to be more productive.",
+                    "parentId": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "CFO",
+        "description": "Chief Financial Officer, responsible for overseeing the company's financial operations and strategy.",
+        "parentId": 1,
+        "children": [
+          {
+            "id": 7,
+            "name": "Chef Accountant",
+            "description": "Chef Accountant, Oversees the accounting department and ensures that the company's financial records are accurate and up-to-date.",
+            "parentId": 6,
+            "children": [
+              {
+                "id": 14,
+                "name": "Financial Analyst",
+                "description": "Financial Analyst, Analyzes financial data to identify trends and make recommendations.",
+                "parentId": 7
+              },
+              {
+                "id": 13,
+                "name": "Account and Payable",
+                "description": "Account and Payable, Manages the company's accounts payable and ensures that bills are paid on time.",
+                "parentId": 7
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "Internal Audit",
+            "description": "Internal Audit, Conducts audits to ensure that the company's financial controls are adequate and that the company is complying with all applicable laws and regulations.",
+            "parentId": 6
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "COO",
+        "description": "Chief Operating Officer, responsible for overseeing the company's day-to-day operations.",
+        "parentId": 1,
+        "children": [
+          {
+            "id": 12,
+            "name": "Product Manager",
+            "description": "Product Manager, Responsible for understanding and conveying the needs of the users and stakeholders to the development team.",
+            "parentId": 8
+          },
+          {
+            "id": 11,
+            "name": "Operation Manager",
+            "description": "Operation Manager, Manages the day-to-day operations of the business.",
+            "parentId": 8
+          },
+          {
+            "id": 10,
+            "name": "Customer Relation",
+            "description": "Customer Relation, Manages the company's relationships with its customers.",
+            "parentId": 8
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "HR",
+        "description": "Human Resources, responsible for managing the company's human resources, including recruiting, hiring, training, and compensation.",
+        "parentId": 1
+      }
+    ]
+  }
